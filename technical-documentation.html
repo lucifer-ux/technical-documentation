@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+  #navbar{position:fixed;
+top:0;
+left:0;
+  width:200px;
+height:100%;
+display: flex;
+flex-direction: column;
+padding-top: 10px;
+border-right: 3px solid black;
+ }
+ header{text-transform: uppercase;
+ font-weight: bold;
+ font-family: sans-serif;
+}
+a{padding-top: 5px;
+  border:0.5px solid green;
+}
+a:hover{color:red;
+ }
+ code{background-color: rgb(211,211,211)}
+ main{margin-left:200px;}
+ p{font-size: 20px;}
+ @media(max-height:800px)  {p{font-size: 15px;}}
+
+ }
+  </style>
+  <body>
+
+    <main id="main-doc">
+      <nav id="navbar">
+        <header id="head1">
+        documentaion of different domains
+        </header>
+        <a href="#C++" class="nav-link">C++</a>
+        <a href="#VLSI" class="nav-link">VLSI</a>
+        <a href="#EMBEDED" class="nav-link">EMBEDED</a>
+        <a href="#PLC" class="nav-link">PLC</a>
+        <a href="#EAGLE" class="nav-link">EAGLE</a>
+      </nav>
+      <section id ="C++" class="main-section">
+        <header>
+          C++
+        </header>
+        <p>C++ (/ˌsiːˌplʌsˈplʌs/) is a high-level, general-purpose programming language created by Bjarne Stroustrup as
+           an extension of the C programming language, or "C with Classes". The language has expanded significantly over
+            time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for
+             low-level memory manipulation.</p>
+             <p> It is almost always implemented as a compiled language, and many vendors
+             provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Oracle, and IBM, so
+              it is available on many platforms.</p><br>
+
+<code> #include <iostream>
+using namespace std;
+
+int main()
+{
+    int number;
+
+    cout << "Enter an integer: ";
+    cin >> number;
+
+    cout << "You entered " << number;
+    return 0;
+}</code><br><br>
+
+<code>// Your First C++ Program
+
+#include <iostream>
+
+int main() {
+    std::cout << "Hello World!";
+    return 0;
+}</code><br><br>
+<code> if ( n % 2 == 0)
+        cout << n << " is even.";
+    else
+        cout << n << " is odd.";
+</code><br><br>
+<code> if(n1 >= n2 && n1 >= n3)
+    {
+        cout << "Largest number: " << n1;
+    }
+
+    if(n2 >= n1 && n2 >= n3)
+    {
+        cout << "Largest number: " << n2;
+    }
+
+    if(n3 >= n1 && n3 >= n2) {
+        cout << "Largest number: " << n3;
+    }
+</code><br><br>
+      </section>
+      <section id="VLSI" class="main-section">
+        <header>
+  VLSI
+</header>
+<p>Very large-scale integration was made possible with the wide adoption of the MOS transistor, originally invented by
+   Mohamed M. Atalla and Dawon Kahng at Bell Labs in 1959.[2] Atalla first proposed the concept of the MOS integrated
+    circuit chip in 1960, followed by Kahng in 1961, both noting that the MOS transistor's ease of fabrication made it
+     useful for integrated circuits.</p> <p>[3][4] General Microelectronics introduced the first commercial MOS integrated
+      circuit in 1964.[5] In the early 1970s, MOS integrated circuit technology allowed the integration of more than 10,000
+       transistors in a single chip.[6] This paved the way for VLSI in the 1970s and 1980s, with tens of thousands of MOS
+        transistors on a single chip (later hundreds of thousands, then millions, and now billions).</p>
+        <code>entity entity_name is
+   Port declaration;
+end entity_name;</code><br><br>
+
+      </section>
+      <section id="EMBEDED" class="main-section">
+        <header>
+          EMBEDED
+        </header>
+        <p>An embedded system is a computer system—a combination of a computer processor, computer memory, and
+          input/output peripheral devices—that has a dedicated function within a larger mechanical or electrical
+           system.</p> <p> It is embedded as part of a complete device often including electrical or electronic
+              hardware and mechanical parts. Because an embedded system typically controls physical operations
+               of the machine that it is embedded within, it often has real-time computing constraints. Embedded
+                systems control many devices in common use today.[3] Ninety-eight percent of all microprocessors
+                 manufactured are used in embedded systems.</p><br>
+      </section>
+      <section id="PLC" class="main-section">
+        <header>
+          PLC
+        </header>
+<p>A programmable logic controller (PLC) or programmable controller is an industrial digital computer which has been
+   ruggedized and adapted for the control of manufacturing processes, such as assembly lines, or robotic devices, or
+    any activity that requires high reliability, ease of programming and process fault diagnosis.</p>
+<p>PLCs can range from small modular devices with tens of inputs and outputs (I/O), in a housing integral with the
+   processor, to large rack-mounted modular devices with a count of thousands of I/O, and which are often networked
+    to other PLC and SCADA systems.</p><br>
+      </section>
+      <section id="EAGLE" class="main-section">
+        <header>
+          EAGLE
+        </header>
+        <p> is a scriptable electronic design automation (EDA) application with schematic capture, printed circuit board
+           (PCB) layout, auto-router and computer-aided manufacturing (CAM) features.</p> <p> EAGLE stands for Easily Applicable
+            Graphical Layout Editor (German: Einfach Anzuwendender Grafischer Layout-Editor) and is developed by CadSoft
+             Computer GmbH. The company was acquired by Autodesk Inc. in 2016.[2]</p><br>
+<ul>
+  <li> Starting New Project & Adding Components</li>
+  <li>Connecting Components.</li>
+  <li>Converting Schematics to Boards</li>
+  <li> Other Things</li>
+  <li>Finished</li><br>
+</ul>
+      </section>
+
+    </main>
+<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js//"></script>
+  </body>
+</html>

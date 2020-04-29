@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<style>
+  #title{text-align:center;}
+  #description{text-align:center;}
+  #survey-form{text-align:center;}
+.boxed{border-color:blue;
+border-width:3px;
+border-style:solid;
+padding:5px;
+background-color: #00FFFF;}
+</style>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<div class="boxed">
+<h1 id="title"> Survey Form</h1>
+<p id="description"> A survey to know about your favoraite anime<p>
+  <form id="survey-form">
+    <label for="name" id="name-label">name</label>
+    <input type="text" name="name" id="name" required placeholder="name"><br/><br/>
+    <label for="mail" id="email-label" >email id</label>
+    <input type="email" name="email" id="email" required
+    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="email"><br/><br/>
+<label for="no." id="number-label" >number</label>
+<input type="number" name="num" min="0" max="10" id="number" required placeholder="number"> <br/><br/>
+<select id="dropdown" class="drop" name="drop">
+  <option value="angel beats">angel beats </option>
+  <option value="death note"> death note </option>
+  <option value="naruto"> naruto</option>
+  <option value="one piece"> one piece </option>
+
+</select>
+<br/><br/><input type="radio" id="action" name="genre" value="action">
+<label for="action">action</label><br/><br/>
+<input type="radio" id="harem" name="genre" value="harem">
+<label for="harem">harem</label><br/><br/>
+<input type="radio" id="slice of life" name="genre" value="slice of life">
+<label for="slice of life">slice of life</label><br/><br/>
+<input type="radio" id="emotional" name="genre" value="emotional">
+<label for="emotional">emotional</label><br/><br/>
+<input type="checkbox" id="watched" name="watched-or-not" value="watched">
+<label for="watched">watched</label><br><br>
+<input type="checkbox" id="watching" name="watched-or-not" value="watching">
+<label for="watching">watching</label><br><br>
+<input type="checkbox" id="not" name="watched-or-not" value="not">
+<label for="not">not watched</label><br><br>
+<label for="comm">Any comments or suggestions?</label><br>
+<textarea name="comm" id="comm" rows="8" cols="80"></textarea><br>
+<input type="submit" id="submit" name="submit" value="Submit">
+ </form>
+  <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</div>
+</body>
+</html>
